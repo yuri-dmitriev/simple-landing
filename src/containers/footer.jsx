@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import './footer.css';
+import '../components/link'
+import Link from "../components/link";
 
 class Footer extends Component {
   render() {
@@ -8,7 +10,7 @@ class Footer extends Component {
         <div className="container text-center">
           <p>
             {`© 2018 Issaaf Kattan React Land Page Template. Design by `}
-            <a href="http://www.templatewire.com/">TemplateWire</a>
+            <Link href="http://www.templatewire.com/" text="TemplateWire" />
           </p>
         </div>
       </footer>

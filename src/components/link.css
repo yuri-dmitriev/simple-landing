@@ -1,0 +1,8 @@
+a.link {
+    color: #608dfd;
+    text-decoration: none;
+}
+
+a.link:hover {
+    border-bottom: 2px solid #608dfd;
+}
