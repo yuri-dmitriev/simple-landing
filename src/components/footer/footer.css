@@ -1,3 +1,8 @@
+.footer {
+    background: #f6f6f6;
+    padding: 30px 0;
+}
+
 .footer p {
     color: #888;
 }
@@ -8,5 +13,5 @@
 }
 
 .footer a:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid #608dfd;
 }
