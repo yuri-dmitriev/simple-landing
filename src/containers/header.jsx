@@ -1,13 +1,20 @@
 import { Component } from 'react';
-import Logo from '../components/logo';
+import NavLogo from '../components/nav__logo';
 
 import './header.css';
 
 class Header extends Component {
   render() {
     return (
-      <header>
-        <Logo />
+      <header className="header">
+        <div className="container">
+          <div className="row">
+            <div className="col-auto">
+              <NavLogo />
+            </div>
+            <div className="col"></div>
+          </div>
+        </div>
       </header>
     );
   }

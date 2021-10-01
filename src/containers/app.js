@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import Header from './header';
+import Nav from '../components/nav';
 import Main from '../components/main/main';
 import Footer from './footer';
 
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="app">
         <div className="app-content">
-          <Header />
+          <Nav />
           <Main />
         </div>
         <div className="app-footer">
