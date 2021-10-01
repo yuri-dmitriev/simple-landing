@@ -1,5 +1,6 @@
 import { Component } from 'react';
-import NavLogo from './nav__logo';
+import NavLogo from './nav_logo';
+import NavLink from './nav_link';
 
 import './nav.css';
 
@@ -47,14 +48,12 @@ class Nav extends Component {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        ><span className="navbar-toggler-icon"></span>
+        ><span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
+          <ul className="navbar-nav ml-auto align-items-center">
           {LINKS.map(({ id, text }) => (
-            <li key={id} className="nav-item">
-              <a className="nav-link" href={`/#${id}`}>{text}</a>
-            </li>
+            <NavLink key={id} id={id} text={text} />
           ))}
           </ul>
         </div>

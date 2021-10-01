@@ -1,4 +1,4 @@
-a.logo {
+a.nav_logo {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -6,6 +6,6 @@ a.logo {
     text-transform: uppercase;
 }
 
-a.logo:hover {
+a.nav_logo:hover {
     text-decoration: none;
 }

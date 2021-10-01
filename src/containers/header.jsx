@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import NavLogo from '../components/nav__logo';
+import NavLogo from '../components/nav_logo';
 
 import './header.css';
 
