@@ -1,9 +1,14 @@
 import { Component } from 'react';
+import Logo from '../components/logo';
+
+import './header.css';
 
 class Header extends Component {
   render() {
     return (
-      <header>This is a header</header>
+      <header>
+        <Logo />
+      </header>
     );
   }
 }

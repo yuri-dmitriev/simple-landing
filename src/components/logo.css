@@ -1,0 +1,11 @@
+a.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+a.logo:hover {
+    text-decoration: none;
+}
