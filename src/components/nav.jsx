@@ -38,7 +38,7 @@ const LINKS = [
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-white">
         <NavLogo />
         <button
           className="navbar-toggler"
