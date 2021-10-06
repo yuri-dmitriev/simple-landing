@@ -2,10 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
+/* sticky-footer core rule */
 html,
 body,
 #root {
     height: 100%;
+}
+
+body {
+    color: #777;
+    font-weight: 400;
 }
 
 h2, h3, h4 {

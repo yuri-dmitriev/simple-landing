@@ -34,11 +34,11 @@ const Features = () => (
   <div id="features" className="features text-center">
     <div className="container">
       <Subtitle text="Features" />
-      <ul className="features-list">
+      <div className="row features-list">
         {FEATURES.map(({ id, icon, title, text }) => (
           <Feature id={id} icon={icon} title={title} text={text} />
         ))}
-      </ul>
+      </div>
     </div>
   </div>
 );

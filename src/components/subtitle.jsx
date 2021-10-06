@@ -1,7 +1,7 @@
 import './subtitle.css';
 
-const Subtitle = ({ text }) => (
-  <h2 className="subtitle">{text}</h2>
-);
+const Subtitle = ({ text }) => {
+  return <h2 class="subtitle">{text}</h2>
+};
 
 export default Subtitle;

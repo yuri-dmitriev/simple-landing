@@ -1,11 +1,11 @@
+import './feature.css';
+
 const Feature = ({ icon, title, text }) => (
-  <li>
-    <div className="feature-circle">
-      <i className={`fas ${icon}`} />
-    </div>
-    <div className="feature-title">{title}</div>
-    <div className="feature-text">{text}</div>
-  </li>
+  <div className="col">
+    <i className={`fas ${icon} feature-circle`} />
+    <h3 className="feature-title">{title}</h3>
+    <p className="feature-text">{text}</p>
+  </div>
 );
 
 export default Feature;
