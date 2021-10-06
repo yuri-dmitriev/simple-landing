@@ -33,10 +33,10 @@ const FEATURES = [
 const Features = () => (
   <div id="features" className="features text-center">
     <div className="container">
-      <Subtitle text="Features" />
+      <Subtitle text="Features" section="features"/>
       <div className="row features-list">
         {FEATURES.map(({ id, icon, title, text }) => (
-          <Feature id={id} icon={icon} title={title} text={text} />
+          <Feature key={id} icon={icon} title={title} text={text} />
         ))}
       </div>
     </div>
