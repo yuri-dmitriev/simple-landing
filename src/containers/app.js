@@ -2,7 +2,7 @@ import { Component } from 'react';
 import Nav from '../components/nav';
 import Header from './header';
 import Features from './features';
-import Main from '../components/main/main';
+import About from './about';
 import Footer from './footer';
 
 import './app.css';
@@ -15,7 +15,7 @@ class App extends Component {
           <Nav />
           <Header />
           <Features />
-          <Main />
+          <About />
         </div>
         <div className="app-footer">
           <Footer />

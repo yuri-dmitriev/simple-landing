@@ -22,3 +22,8 @@
 .features-subtitle {
     margin-bottom: 70px;
 }
+
+.about-subtitle:after {
+    margin-left: 0;
+    left: 0;
+}
