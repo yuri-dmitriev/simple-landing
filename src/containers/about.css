@@ -9,3 +9,8 @@
     border-right: 0;
     box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
+
+.about p {
+    margin: 30px 0;
+    line-height: 1.6;
+}
